@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Project outputs (big files, no need to track)
+screenshots/
+pipeline_output/
+*.png
+*.jpg
+
+# OS clutter
+.DS_Store
+Thumbs.db
