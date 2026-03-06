@@ -8,6 +8,8 @@ import pytesseract
 from PIL import Image
 import numpy as np
 
+# Tell pytesseract exactly where Tesseract is installed on your system [uncomment and update the path if needed]
+# pytesseract.pytesseract.tesseract_cmd = (r"C:\Program Files\Tesseract-OCR\tesseract.exe")
 
 class OCRExtractor:
     """
